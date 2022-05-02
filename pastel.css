@@ -103,7 +103,7 @@ ul#menu li a:hover, ul#menu li a.active {
 	height: 150px;
 	background-color: #79BFA1;
 	color: #fff;
-	margin-top: 18px;
+	margin-top: 5px; /*18px;*/
 }
 #header {
 	display: table-cell;
