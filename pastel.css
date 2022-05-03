@@ -107,12 +107,12 @@ ul#menu li a:hover + .hidden, .hidden:hover {
 li:hover ul li {
     background: #000000; /* #f3f3f3; */
     color: #000; /* #2f3036; */
-    /*height: 30px;*/
-    /*line-height: 30px;*/
+    height: 80%; /* */
+    line-height: 80%; /* 25px */
 }
 
 /*Hover state for dropdown links li:hover ul a:hover*/
-ul:hover, li:hover ul a:hover {
+.hidden ul:hover, .hidden li:hover ul a:hover {
     /*background: #87b;  #19c589; ul:hover changes color to left of dropdown */
     color: #fff;
     display: block;
@@ -120,16 +120,17 @@ ul:hover, li:hover ul a:hover {
 
 
 ul#menu li a, ul li a {
-	font-size: 85%;
+	font-size: 95%;
 	text-decoration: none;
-	color: #ccc;
+	color: #ddd;
 	padding: 10.5px 11px;
 	background-color: #7C71AD;
 	display: block;
 	border: none !important;
 }
+/*for active nav menu item*/
 ul#menu li a:hover, ul#menu li a.active {
-	background-color: #87b;
+	background-color: #988ac4; /* original color #87b;*/
 	color: #fff;
 	border: none !important;
 }
@@ -138,6 +139,8 @@ ul#menu li a:hover, ul#menu li a.active {
 li ul li {
     display: block;
     float: none;
+    height: 80%; /* */
+    line-height: 80%; /* 25px */
 }
 
 /*Prevent text wrapping*/
