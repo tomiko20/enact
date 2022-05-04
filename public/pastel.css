@@ -36,6 +36,8 @@ a:hover {
 h1, h2 {
 	margin-bottom: 0;
 }
+
+
 blockquote {
 	color: #777;
 	display: block;
@@ -49,6 +51,11 @@ blockquote {
 	box-shadow: 2px 2px 15px #ddd;
 	margin: 0 auto;
 }
+
+
+
+
+
 .two-col-cell {
 	display: table-cell;
 	float: left;
