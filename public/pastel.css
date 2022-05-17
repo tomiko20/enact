@@ -59,7 +59,7 @@ blockquote {
 .two-col-cell {
 	display: table-cell;
 	float: left;
-	width: calc(100% / 2);
+	width: calc((100% / 2) - 6px);
 }
 .three-col-cell {
 	display: table-cell;
@@ -84,6 +84,9 @@ blockquote {
 	margin: 1px;
 }
 .gallery img {
+	width: 80%;
+}
+.gallery iframe {
 	width: 80%;
 }
 
@@ -303,6 +306,9 @@ li ul li a {
 		width: calc(100% / 1);
 	}
 	.gallery img {
+		width: 70%;
+	}
+	.gallery iframe {
 		width: 70%;
 	}
 	#footer {
