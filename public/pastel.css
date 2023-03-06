@@ -201,7 +201,7 @@ li ul li a {
 #announcement {
 	display: table-cell;
 	vertical-align: middle;
-	horizontal-align:center !important;
+	text-align:center !important;
 }
 #content {
 	display: table;
