@@ -185,7 +185,7 @@ li ul li a {
 	margin-top: 18px;
 }
 #announcement {
-	display: table;
+	/* display: table; */
 	width: 100%;
 	height: 35px;
 	background-color: #f2cd3a !important; /* yellow ribbon color */
