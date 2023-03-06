@@ -184,25 +184,12 @@ li ul li a {
 	color: #fff;
 	margin-top: 18px;
 }
-#announcement_banner {
-	/* display: table; */
-	width: 100%;
-	height: 35px;
-	background-color: #f2cd3a !important; /* yellow ribbon color */
-	color: #555 !important;
-	text-align:center !important;
-	/* position: absolute; */
-	/* margin-top: 18px; */
-}
+
 #header {
 	display: table-cell;
 	vertical-align: middle;
 }
-#announcement {
-	/* display: table-cell; */
-	vertical-align: middle;
-	text-align:center !important;
-}
+
 #content {
 	display: table;
 	width: calc(100% - (200px + (2% * 2)));
