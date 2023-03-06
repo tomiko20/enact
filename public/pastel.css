@@ -184,8 +184,8 @@ li ul li a {
 	color: #fff;
 	margin-top: 18px;
 }
-#announcement {
-	/* display: table; */
+#announcement_banner {
+	display: table;
 	width: 100%;
 	height: 35px;
 	background-color: #f2cd3a !important; /* yellow ribbon color */
@@ -197,7 +197,11 @@ li ul li a {
 #header {
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: calc(200px + 2% + 2%);
+}
+#announcement {
+	display: table-cell;
+	vertical-align: middle;
+	horizontal-align:center !important;
 }
 #content {
 	display: table;
